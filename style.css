@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head {
+    padding-top: 15px;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+}
+ul li{
+    padding: 15px;
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+button {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 150px;
+    height: 70px;
+}
+.hero-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 66px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    width: 50%;
+}
+.heading {
+    width: 700px;
+    padding-left: 70px;
+    line-height: 100px;
+    word-spacing: 15px;
+    font-size: 32px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.para {
+    margin-top: 20px;
+    margin-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.paragraph {
+    font-size: 30px;
+}
+.but {
+    width: 350px;
+    margin-top: 45px;
+    margin-left: 70px;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+.image {
+    width: 750px;
+}
+.collabs {
+    margin-top: 70px;
+}
+.section-2 {
+    margin-top: 120px;
+}
+.head2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    gap: 60px;
+}
+.services {
+    font-size: 50px;
+    background-color: rgb(185,255,102);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.para2 {
+    width: 600px;
+    font-size: 22px;
+
+}
+.section-3 {
+    margin-top: 40px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box1 {
+    padding-left: 30px;
+    border-radius: 45px;
+    width: 600px;
+    height: 310px;
+    border: 1px solid black;
+}
+.h2 {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    background-color: rgb(185,255,102);
+    font-size: 42px;
+    width: 300px;
+}
+.aero {
+    padding: 5px;
+    font-size: 30px;
+}
+span {
+    border-radius: 50%;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+.box2 {
+    background-color:  rgb(185,255,102);
+    padding-left: 30px;
+    border-radius: 45px;
+    width: 600px;
+    height: 310px;
+    border: 1px solid black;
+}
+.h-2 {
+    font-weight: lighter;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    background-color: white;
+    font-size: 42px;
+    width: 300px;
+}
+.section-4 {
+    margin-top: 120px;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    gap: 40px;
+}
+.tops {
+    font-size: 50px;
+    background-color: rgb(185,255,102);
+    font-weight: lighter;   
+}
+.para3 {
+    width: 600px;
+    font-size: 32px;
+}
+.arion {
+    margin-top: 50px;
+}
+
+
+
+@media (max-width: 1000px) and (min-width: 200px) {
+
+    
+}
